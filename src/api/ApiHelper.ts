@@ -7,7 +7,7 @@ export class ApiHelper {
 
     constructor(request: APIRequestContext, baseURL: string) {
         this.request = request;
-        this.baseURL = baseURL;
+        this.baseURL = baseURL ;
     }
 
 
