@@ -11,7 +11,7 @@ test.beforeEach(async ({ page }) => {
     loginPage = new LoginPage(page);
     await loginPage.goToLoginPage();
     await loginPage.doLogin('pwtestbatch@open.com', 'pw123');
-    homePage = new HomePage(page);
+    homePage = new HomePage(page); 
 });
 
 test('home page title test', async () => {
