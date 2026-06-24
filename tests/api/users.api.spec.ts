@@ -1,7 +1,7 @@
 
 import { test, expect } from '@playwright/test';
 
-let AUTH_TOKEN = { Authorization: 'Bearer d0bf1714ac04c10dd2982e009d2dffe694a8e0b53af518cb7370e41e046a72f6' };
+let AUTH_TOKEN = { Authorization: 'Bearer dce2a2028e2669591616e82925b6e28fa568b112080e3af4bd128caae736ffec' };
 
 
 test('get user test', async ({ request }) => {
