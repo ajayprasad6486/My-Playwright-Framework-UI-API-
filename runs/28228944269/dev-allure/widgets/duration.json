@@ -1,0 +1,1 @@
+[{"uid":"83ca9da9c9f46bdc","name":"GET -- get all users @smoke","time":{"start":1782465446125,"stop":1782465446968,"duration":843},"status":"passed","severity":"normal"},{"uid":"1df58196b9e6541","name":"GET -- get a user @smoke","time":{"start":1782465446124,"stop":1782465447219,"duration":1095},"status":"passed","severity":"normal"}]
