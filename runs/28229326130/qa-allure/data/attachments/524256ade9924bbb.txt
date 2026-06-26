@@ -1,0 +1,74 @@
+[
+  {
+    id: 8522860,
+    name: 'Naveen API Updated',
+    email: 'automation_1782465961419@open.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8522858,
+    name: 'schema test',
+    email: 'automation_1782465959944@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8522857,
+    name: 'Naveen API Updated',
+    email: 'automation_1782465958788@open.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8522856,
+    name: 'Naveen API',
+    email: 'automation_1782465957188@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8522855,
+    name: 'schema test',
+    email: 'automation_1782465913208@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8522849,
+    name: 'schema test',
+    email: 'automation_1782465446163@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8522785,
+    name: 'schema test',
+    email: 'automation_1782463852352@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8522722,
+    name: 'schema test',
+    email: 'automation_1782463010831@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8522678,
+    name: 'schema test',
+    email: 'automation_1782461869449@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8522605,
+    name: 'schema test',
+    email: 'automation_1782460731539@open.com',
+    gender: 'male',
+    status: 'active'
+  }
+]
+200
+OK
