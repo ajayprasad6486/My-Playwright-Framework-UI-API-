@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1428","GET -- get all users @smoke","chromium","2026-06-26","passed","2026-06-26","","api/users.api.schema.spec.ts","",""
+"","2381","logout link exist test @smoke","chromium","2026-06-26","failed","2026-06-26","","homepage.spec.ts","",""
+"","1746","GET -- get a user @smoke","chromium","2026-06-26","passed","2026-06-26","","api/users.api.schema.spec.ts","",""
+"","2472","home page title test @smoke","chromium","2026-06-26","failed","2026-06-26","","homepage.spec.ts","",""
