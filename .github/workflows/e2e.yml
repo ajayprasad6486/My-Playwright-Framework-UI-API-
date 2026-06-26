@@ -109,7 +109,7 @@ jobs:
           echo "========================================="
           npx playwright test --project=chromium --grep @smoke
         env:
-          ENV: ${{ github.event.inputs.environment || 'QA' }}
+          ENV: dev
           BASE_URL: ${{ secrets.BASE_URL }}
           USERNAME: ${{ secrets.USERNAME }}
           PASSWORD: ${{ secrets.PASSWORD }}
@@ -194,7 +194,7 @@ jobs:
           echo "========================================="
           npx playwright test --project=chromium
         env:
-          ENV: ${{ github.event.inputs.environment || 'QA' }}
+          ENV: qa
           BASE_URL: ${{ secrets.BASE_URL }}
           USERNAME: ${{ secrets.USERNAME }}
           PASSWORD: ${{ secrets.PASSWORD }}
@@ -279,7 +279,7 @@ jobs:
           echo "========================================="
           npx playwright test --project=chromium --grep @sanity
         env:
-          ENV: ${{ github.event.inputs.environment || 'QA' }}
+          ENV: stage
           BASE_URL: ${{ secrets.BASE_URL }}
           USERNAME: ${{ secrets.USERNAME }}
           PASSWORD: ${{ secrets.PASSWORD }}
@@ -365,7 +365,7 @@ jobs:
           echo "========================================="
           npx playwright test --project=chromium --grep @smoke
         env:
-          ENV: ${{ github.event.inputs.environment || 'QA' }}
+          ENV: Prod
           BASE_URL: ${{ secrets.BASE_URL }}
           USERNAME: ${{ secrets.USERNAME }}
           PASSWORD: ${{ secrets.PASSWORD }}
