@@ -14,11 +14,11 @@ test('login page title test', async ({ loginPage }) => {
     expect(pageTitle).toBe('Account Login');
 });
 
-test('forgot pwd link exist test', async ({ loginPage }) => {
+test('forgot pwd link exist test @regression', async ({ loginPage }) => {
     expect(await loginPage.isForgotPwdLinkExist()).toBeTruthy();
 });
 
-test('user is able to login to app test', async ({ loginPage, homePage }) => {
+test('user is able to login to app test @regression', async ({ loginPage, homePage }) => {
     await loginPage.doLogin(process.env.USERNAME!, process.env.PASSWORD!);
     expect.soft(await homePage.isLogoutLinkExist()).toBeTruthy();
     expect.soft(await homePage.getPageTitle()).toBe('My Account');
@@ -49,7 +49,7 @@ for (let row of testData) {
 //maintenance
 let loginTestData = ExcelHelper.readExcel('src/data/OpenCartTestData.xlsx', 'login');
 for (let row of loginTestData) {
-    test(`invalid login test with excel data - ${row.username}`, async ({ loginPage }) => {
+    test(`invalid login test with excel data - ${row.username} @sanity`, async ({ loginPage }) => {
         await loginPage.doLogin(row.username, row.password);
         expect(await loginPage.isInvalidLoginErrorDisplayed()).toBeTruthy();
     });
