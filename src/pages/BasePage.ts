@@ -24,7 +24,7 @@ export class BasePage {
 
     //common locators/functionalities/actions
     async isLogoVisible(): Promise<boolean> {
-        return this.logo.isVisible();
+        return await this.logo.isVisible();
     }
 
     async isSearchBoxVisible(): Promise<boolean> {
@@ -60,7 +60,7 @@ export class BasePage {
         await this.page.waitForLoadState('load');
     }
 
-    async takeScreenshot(name: string) {
+    async takeScreenshot(name: string):Promise<Buffer> {
         return await this.page.screenshot({
             fullPage: true,
             path: `reports/screenshot/${name}.png`
