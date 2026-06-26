@@ -1,6 +1,6 @@
 # ═══════════════════════════════════════════════════════════════
 # FILE: .github/workflows/master-pipeline.yml
-# REPO: ajayprasad6486/My-Playwright-Framework-UI-API-
+# REPO: naveenanimation20/OpenCartWebAPIFramework
 # DEV REPO: jglick/simple-maven-project-with-tests
 # ═══════════════════════════════════════════════════════════════
 
@@ -75,8 +75,7 @@ jobs:
     steps:
       - name: Checkout QA repo
         uses: actions/checkout@v4
-        with:
-          repository: ajayprasad6486/My-Playwright-Framework-UI-API-
+        
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -160,8 +159,7 @@ jobs:
     steps:
       - name: Checkout QA repo
         uses: actions/checkout@v4
-        with:
-          repository: ajayprasad6486/My-Playwright-Framework-UI-API-
+        
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -245,9 +243,7 @@ jobs:
     steps:
       - name: Checkout QA repo
         uses: actions/checkout@v4
-        with:
-          repository: ajayprasad6486/My-Playwright-Framework-UI-API-
-
+        
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -277,7 +273,7 @@ jobs:
           echo "========================================="
           echo "  Running SANITY @smoke on STAGE"
           echo "========================================="
-          npx playwright test --project=chromium --grep @sanity
+          npx playwright test --project=chromium --grep @smoke
         env:
           ENV: stage
           BASE_URL: ${{ secrets.BASE_URL }}
@@ -331,8 +327,7 @@ jobs:
     steps:
       - name: Checkout QA repo
         uses: actions/checkout@v4
-        with:
-          repository: ajayprasad6486/My-Playwright-Framework-UI-API-
+        
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -365,7 +360,7 @@ jobs:
           echo "========================================="
           npx playwright test --project=chromium --grep @smoke
         env:
-          ENV: Prod
+          ENV: prod
           BASE_URL: ${{ secrets.BASE_URL }}
           USERNAME: ${{ secrets.USERNAME }}
           PASSWORD: ${{ secrets.PASSWORD }}
@@ -587,7 +582,7 @@ jobs:
                 <a class="report-link green" href="${REPORT_URL}/qa-allure/index.html">📈 QA Allure Report</a>
               </div>
               <div class="footer">
-                Ajay Automation | Playwright Framework | $(date +'%d %b %Y, %I:%M %p UTC')
+                Naveen Automation Labs | Playwright Framework | $(date +'%d %b %Y, %I:%M %p UTC')
               </div>
             </div>
           </body>
@@ -603,7 +598,7 @@ jobs:
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
           subject: "🎭 CI/CD Pipeline — ${{ steps.status.outputs.overall }} — ${{ github.ref_name }}"
-          to: ajayprasad6486@gmail.com
+          to: naveenanimation20@gmail.com,training@naveenautomationlabs.com,nkt.agarwal3@gmail.com,kdpatel8184@gmail.com
           from: "CI Bot <${{ secrets.EMAIL_USERNAME }}>"
           html_body: file://dashboard.html
 
