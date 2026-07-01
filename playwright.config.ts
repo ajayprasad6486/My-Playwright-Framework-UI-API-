@@ -26,12 +26,13 @@ export default defineConfig({
       suiteTitle: true,
     }],
   ],
+  expect:{timeout:3000},
 
   use: {
     baseURL: process.env.BASE_URL,
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    trace: 'on-first-retry',
+    trace: 'retain-on-failure',
     headless:!process.env.CI ? false:true,
 
   },

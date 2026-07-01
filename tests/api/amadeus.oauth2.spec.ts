@@ -54,8 +54,8 @@ test('GET -- get location data', async ({ request }) => {
     let locationJson = await locationResponse.json();
     console.log(locationJson.meta.count);
 
-    let location1 = locationJson.data[0];
-    console.log(location1);
+    let location1 = locationJson.data;
+    console.log(location1[0]);
 });
 
 
