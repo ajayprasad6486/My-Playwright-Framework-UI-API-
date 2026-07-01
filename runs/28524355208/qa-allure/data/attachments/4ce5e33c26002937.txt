@@ -1,0 +1,74 @@
+[
+  {
+    id: 8531708,
+    name: 'Naveen API Updated',
+    email: 'automation_1782915650017@open.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8531706,
+    name: 'schema test',
+    email: 'automation_1782915648576@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8531705,
+    name: 'Naveen API Updated',
+    email: 'automation_1782915647467@open.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8531704,
+    name: 'Naveen API',
+    email: 'automation_1782915645775@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8531701,
+    name: 'schema test',
+    email: 'automation_1782915592687@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8531305,
+    name: 'Amb. Kalinda Verma',
+    email: 'amb_kalinda_verma@haag-glover.test',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8531304,
+    name: 'Veda Chopra',
+    email: 'veda_chopra@kling.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8531303,
+    name: 'Bhoj Iyer II',
+    email: 'ii_iyer_bhoj@roberts.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8531302,
+    name: 'Anusuya Reddy JD',
+    email: 'anusuya_jd_reddy@zulauf-boyle.test',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8531301,
+    name: 'Dayaamay Tagore',
+    email: 'tagore_dayaamay@heathcote-heidenreich.test',
+    gender: 'female',
+    status: 'inactive'
+  }
+]
+200
+OK

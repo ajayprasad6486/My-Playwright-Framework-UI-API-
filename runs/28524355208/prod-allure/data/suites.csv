@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1271","GET -- get all users @smoke","chromium","2026-07-01","passed","2026-07-01","","api/users.api.schema.spec.ts","",""
+"","1717","GET -- get a user @smoke","chromium","2026-07-01","passed","2026-07-01","","api/users.api.schema.spec.ts","",""
