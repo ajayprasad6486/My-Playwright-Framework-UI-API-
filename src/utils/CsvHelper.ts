@@ -9,6 +9,6 @@ export class CsvHelper {
             columns: true, //first row as headers
             skip_empty_lines: true,
             trim: true, //trim spaces
-        }) as Record<string, string>[];
+        }) as Record<string, string>[]; 
     }
 }
